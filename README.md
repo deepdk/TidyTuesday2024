@@ -40,7 +40,7 @@
 
 ### [week 23 - Cheese](https://github.com/deepdk/TidyTuesday2024/tree/main/2024/week_23)
 
-![garden1](https://github.com/user-attachments/assets/dae5dbf1-c48d-46d8-891d-917911b64453)
+![image](https://github.com/user-attachments/assets/a8db908d-b7f1-4b1e-a199-656ed288da8e)
 
 ---
 
