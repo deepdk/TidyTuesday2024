@@ -7,10 +7,6 @@ title: World Fairs
 library(tidyverse)
 library(ggflags)
 library(janitor)
-library(MetBrewer)
-library(ggrepel)
-library(geomtextpath)
-library(ggbeeswarm)
 library(ggiraph)
 library(htmlwidgets)
 library(htmltools)
@@ -24,7 +20,7 @@ worlds_fairs <- readr::read_csv('https://raw.githubusercontent.com/rfordatascien
 ```
 
 ```{r}
-c_codes <- read_csv("D:/country-codes.csv") |> 
+c_codes <- read_csv("country-codes.csv") |> 
     clean_names()
 ```
 
@@ -62,9 +58,6 @@ df <- df |>
 
 
 ```{r}
-bg_color <- "#dedbd2"
-font_color <- "#1f3225"
-hover_color <- "#4c6061"
 
 title <- "World's Fairs"
 
@@ -80,7 +73,7 @@ g <- ggplot(df, aes(area, visitors)) +
   geom_flag(aes(country = alpha_2_code), size = 5) 
 ```
 
-```{r, fig.width=20}
+```{r}
 my_gg <- g + 
   geom_point_interactive(aes(tooltip = glue("City: {city}\nExpo: {name_of_exposition}\nDuration: {duration} months"), data_id = city),color = "#99582a",family = "Georgia", 
     size = 1)+
