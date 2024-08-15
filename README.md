@@ -2,6 +2,18 @@
 
 
 
+### [week 33 - World Fairs](https://github.com/deepdk/TidyTuesday2024/tree/main/2024/week_33)
+
+![gif1](https://github.com/user-attachments/assets/5d3ebb4c-e84d-463a-aa23-573980613188)
+
+---
+
+### [week 32 - Olympic Atheletes and Medals](https://github.com/deepdk/TidyTuesday2024/tree/main/2024/week_32)
+
+![p2](https://github.com/user-attachments/assets/982689fe-83f0-4580-b60d-219ffc230734)
+
+---
+
 ### [week 31 - Summer Movies](https://github.com/deepdk/TidyTuesday2024/tree/main/2024/week_31)
 
 ![image](https://github.com/user-attachments/assets/0a6c87a1-73a5-41ea-8e41-2702e5b7e9a6)
