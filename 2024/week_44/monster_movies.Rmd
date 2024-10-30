@@ -12,18 +12,14 @@ library(tidyverse)
 library(janitor)
 library(showtext)
 library(ggbeeswarm)
-library(ggridges)
-library(ggdist)
-library(svglite)
 library(ragg)
-library(MetBrewer)
 library(glue)
 library(ggtext)
 ```
 
 
 ```{r}
-font_add_google("Irish Grover","josefin sans")
+font_add_google("Irish Grover","irish grover")
 showtext_auto()
 ```
 
@@ -52,73 +48,6 @@ df <- df %>%
 
 ```
 
-
-```{r}
-p <- ggplot(df, aes(x = genre1, y = average_rating,color = average_rating) )+
-  geom_beeswarm(size = 1.5, cex = 0.6, alpha = 0.7) +
-  coord_flip() +
-  scale_y_continuous(breaks = seq(0, 10, by = 1), limits = c(0, 10)) +
-  scale_color_gradient(low = "white",high = "red") +
-  theme_minimal() +
-  theme(legend.position = "none",
-        axis.title.y = element_blank(),
-        panel.grid.major.y = element_line(color = "#3B3A3A"),
-        panel.grid.major.x = element_blank(),
-        panel.grid.minor.x = element_blank(),
-        axis.title.x = element_blank(),
-        axis.text.y = element_text(color = "#F3EDED", family = "josefin sans" , size = 20, face = "bold"),
-        axis.text.x = element_text(color = "#F3EDED",family = "josefin sans",size = 20,face = "bold"),
-        plot.background = element_rect(fill = "black", color = "black"),
-        plot.title.position = "plot",
-  plot.title = element_textbox_simple(
-      colour = "#F3EDED",
-      hjust = 0,
-      halign = 0,
-      margin = margin(b = 10, t = 0),
-      lineheight = 0.5,
-      face = "bold",
-      size = 50,
-      family = "josefin sans"
-    ),
-    plot.subtitle = element_textbox_simple(
-      colour = "#F3EDED",
-      hjust = 0,
-      halign = 0,
-      margin = margin(b = 15, t = 5),
-      lineheight = 0.5,
-      family = "josefin sans",
-      size = 25
-    ),
-  plot.caption = element_textbox_simple(
-      colour = "#F3EDED",
-      hjust = 0,
-      halign = 0,
-      margin = margin(b = 0, t = 10),
-      lineheight = 0.5,
-      family = "josefin sans",
-      size = 15
-    ),
-plot.margin = margin(10, 10, 10, 10)) +
-  labs(title = title,
-       subtitle = st,
-       caption = cap)
-```
-
-```{r}
-p
-```
-
-
-```{r}
-ggsave(path = "D:/TidyTuesday_2024/week_44",filename="p.png", plot=p, width=5, height=7)
-```
-
-
-```{r}
-view(df)
-```
-
-
 ```{r}
 p1 <- ggplot(df, aes(x = genre1, y = average_rating,color = title_type) )+
   geom_beeswarm(size = 1.8, cex = 0.6, alpha = 0.7) +
@@ -133,8 +62,8 @@ p1 <- ggplot(df, aes(x = genre1, y = average_rating,color = title_type) )+
         panel.grid.major.x = element_blank(),
         panel.grid.minor.x = element_blank(),
         axis.title.x = element_blank(),
-        axis.text.y = element_text(color = "#e9ecef", family = "josefin sans" , size = 20, face = "bold"),
-        axis.text.x = element_text(color = "#e9ecef",family = "josefin sans",size = 20,face = "bold"),
+        axis.text.y = element_text(color = "#e9ecef", family = "irish grover" , size = 20, face = "bold"),
+        axis.text.x = element_text(color = "#e9ecef",family = "irish grover",size = 20,face = "bold"),
         plot.background = element_rect(fill = "black", color = "black"),
         plot.title.position = "plot",
   plot.title = element_textbox_simple(
@@ -145,7 +74,7 @@ p1 <- ggplot(df, aes(x = genre1, y = average_rating,color = title_type) )+
       lineheight = 0.5,
       face = "bold",
       size = 50,
-      family = "josefin sans"
+      family = "irish grover"
     ),
     plot.subtitle = element_textbox_simple(
       colour = "#e9ecef",
@@ -153,7 +82,7 @@ p1 <- ggplot(df, aes(x = genre1, y = average_rating,color = title_type) )+
       halign = 0,
       margin = margin(b = 15, t = 5),
       lineheight = 0.5,
-      family = "josefin sans",
+      family = "irish grover",
       size = 20
     ),
   plot.caption = element_textbox_simple(
@@ -162,7 +91,7 @@ p1 <- ggplot(df, aes(x = genre1, y = average_rating,color = title_type) )+
       halign = 0.5,
       margin = margin(b = 0, t = 10),
       lineheight = 0.5,
-      family = "josefin sans",
+      family = "irish grover",
       size = 15
     ),
 plot.margin = margin(10, 10, 10, 10)) +
