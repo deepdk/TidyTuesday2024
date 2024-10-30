@@ -2,6 +2,36 @@
 
 
 
+### [week 44 - Monster movies](https://github.com/deepdk/TidyTuesday2024/tree/main/2024/week_44)
+
+![image](https://github.com/user-attachments/assets/5782b1f4-e000-481b-8436-6043a9001888)
+
+---
+
+### [week 39 - Math Olympiad Medals](https://github.com/deepdk/TidyTuesday2024/tree/main/2024/week_39)
+
+![image](https://github.com/user-attachments/assets/9f0fb019-3a21-4a06-a16f-f5dd9655f8dc)
+
+---
+
+### [week 38 - Shakspear's Dialogues](https://github.com/deepdk/TidyTuesday2024/tree/main/2024/week_38)
+
+![image](https://github.com/user-attachments/assets/9f2ba458-f4d1-4793-b921-d7565817d749)
+
+---
+
+### [week 35 - Power Rangers](https://github.com/deepdk/TidyTuesday2024/tree/main/2024/week_35)
+
+![image](https://github.com/user-attachments/assets/59e4a2cb-2bdc-482e-99a7-9b6e28f7c9db)
+
+---
+
+### [week 34 - English Monarchs and Mariages](https://github.com/deepdk/TidyTuesday2024/tree/main/2024/week_34)
+
+![image](https://github.com/user-attachments/assets/3b034b75-766d-4188-94e8-3a4fc88e6073)
+
+---
+
 ### [week 33 - World Fairs](https://github.com/deepdk/TidyTuesday2024/tree/main/2024/week_33)
 
 ![gif1](https://github.com/user-attachments/assets/5d3ebb4c-e84d-463a-aa23-573980613188)
