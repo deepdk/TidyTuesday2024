@@ -2,6 +2,12 @@
 
 
 
+### [week 47 - Bob's Burger](https://github.com/deepdk/TidyTuesday2024/tree/main/2024/week_47)
+
+![Rplot05](https://github.com/user-attachments/assets/9c57727e-46ab-4ce4-b32c-286b02fb41f6)
+
+---
+
 ### [week 44 - Monster movies](https://github.com/deepdk/TidyTuesday2024/tree/main/2024/week_44)
 
 ![image](https://github.com/user-attachments/assets/5782b1f4-e000-481b-8436-6043a9001888)
