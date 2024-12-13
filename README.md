@@ -2,6 +2,12 @@
 
 
 
+### [week 50 - Scent of Data](https://github.com/deepdk/TidyTuesday2024/tree/main/2024/week_50)
+
+![perfume2](https://github.com/user-attachments/assets/602c1d62-eef0-48ba-ae55-4c787e9bbde7)
+
+---
+
 ### [week 47 - Bob's Burger](https://github.com/deepdk/TidyTuesday2024/tree/main/2024/week_47)
 
 ![Rplot05](https://github.com/user-attachments/assets/9c57727e-46ab-4ce4-b32c-286b02fb41f6)
