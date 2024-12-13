@@ -8,6 +8,12 @@
 
 ---
 
+### [week 45 - Democracy and Dictatorship](https://github.com/deepdk/TidyTuesday2024/tree/main/2024/week_45)
+
+![image](https://github.com/user-attachments/assets/1671fda9-d1dc-4d81-acab-cb6622129d05)
+
+---
+
 ### [week 44 - Monster movies](https://github.com/deepdk/TidyTuesday2024/tree/main/2024/week_44)
 
 ![image](https://github.com/user-attachments/assets/5782b1f4-e000-481b-8436-6043a9001888)
